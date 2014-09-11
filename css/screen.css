@@ -1,0 +1,116 @@
+html,
+body {
+	height: 100%;
+	font-family: 'source_sans_proregular', Helvetica, Arial, sans-serif;
+}
+
+section {
+	text-align: center;
+	position: relative;
+}
+
+p, ul {
+	font-size: 20px;
+	text-align: left;
+}
+
+h2 {
+	font-size: 50px;
+	margin: 0 0 30px;
+}
+
+/* HEADER */
+	#section-top {
+		height: 100%;
+		min-height: 500px;
+		background-color: #2b3037;
+	}
+
+	header hr {
+		width: 356px;
+	}
+
+	header img {
+		margin-top: 120px;
+	}
+
+	header span {
+		text-transform: uppercase;
+		color: #66ccc3;
+		font-size: 25px;
+	}
+
+	#fleche-bas {
+		position: absolute;
+		bottom: 45px;
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
+
+
+/* SECTION WHAT */
+	#section-what {
+		text-align: center;
+		position: relative;
+	}
+
+
+	#section-what h2 {
+		color: #66ccc3;
+	}
+
+	#section-what p {
+		color: #6d7583;
+		width: 560px;
+		margin: auto;
+	}
+
+	.section-content {
+		margin: 80px 0 100px;
+	}
+
+/* SECTION WHY HOW */
+	#section-why-how {
+		background-image: url(../images/tel-mac-book.jpg);
+		background-repeat: no-repeat;
+		background-position: center top;
+		overflow: hidden;
+		border-bottom: 5px solid #19645e;
+	}
+
+	#section-why-how .section-content {
+		background-color: rgb(30, 33, 38);
+		background-color: rgba(30, 33, 38, 0.8);
+		width: 560px;
+		margin: 55px 0 55px 260px;
+		padding: 25px 0 20px 100px;
+		color: #ffffff;
+	}
+
+	#section-why-how h2 {
+		text-align: left;
+		margin: 0 0 20px;
+
+	}
+
+	#section-why-how p {
+		margin: 0 0 30px 0
+	}
+
+	#section-why-how ul {
+		padding: 0 0 0 20px;
+	}
+
+/* FONTS */
+	@font-face {
+	    font-family: 'source_sans_proregular';
+	    src: url('../fonts/sourcesanspro-regular-webfont.eot');
+	    src: url('../fonts/sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('../fonts/sourcesanspro-regular-webfont.woff2') format('woff2'),
+	         url('../fonts/sourcesanspro-regular-webfont.woff') format('woff'),
+	         url('../fonts/sourcesanspro-regular-webfont.ttf') format('truetype'),
+	         url('../fonts/sourcesanspro-regular-webfont.svg#source_sans_proregular') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+	}
