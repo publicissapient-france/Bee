@@ -19,6 +19,20 @@ h2 {
 	margin: 0 0 30px;
 }
 
+h3 {
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.subtitle-highlight {
+	color: #66ccc3;
+	font-family: 'source_sans_probold', Helvetica, Arial, sans-serif;
+}
+
+.subtitle-classic {
+	color: #282c31;
+}
+
 /* HEADER */
 	#section-top {
 		height: 100%;
@@ -26,15 +40,15 @@ h2 {
 		background-color: #2b3037;
 	}
 
-	header hr {
+	#section-top header hr {
 		width: 356px;
 	}
 
-	header img {
+	#section-top header img {
 		margin-top: 120px;
 	}
 
-	header span {
+	#section-top header span {
 		text-transform: uppercase;
 		color: #66ccc3;
 		font-size: 25px;
@@ -70,16 +84,17 @@ h2 {
 		margin: 80px 0 100px;
 	}
 
-/* SECTION WHY HOW */
-	#section-why-how {
-		background-image: url(../images/tel-mac-book.jpg);
+/* SECTION WHY */
+	#section-why {
+		background-image: url(../images/mac-book.jpg);
 		background-repeat: no-repeat;
 		background-position: center top;
+		background-size: cover;
 		overflow: hidden;
 		border-bottom: 5px solid #19645e;
 	}
 
-	#section-why-how .section-content {
+	#section-why .section-content {
 		background-color: rgb(30, 33, 38);
 		background-color: rgba(30, 33, 38, 0.8);
 		width: 560px;
@@ -88,18 +103,121 @@ h2 {
 		color: #ffffff;
 	}
 
-	#section-why-how h2 {
+	#section-why h2 {
 		text-align: left;
 		margin: 0 0 20px;
 
 	}
 
-	#section-why-how p {
-		margin: 0 0 30px 0
+	#section-why p {
+		margin: 0 0 30px;
 	}
 
-	#section-why-how ul {
+	#section-why ul {
 		padding: 0 0 0 20px;
+	}
+
+
+/* SECTION HOW */
+	#section-how h2 {
+		padding: 20px 0 25px;
+		margin: 0;
+	}
+
+	#section-how .section-content {
+		color: #ffffff;
+		background-color: #2c3138;
+		margin: 0;
+	}
+
+/* SECTIONS STEP */
+	.section-step header {
+		display: table;
+		height: 250px;
+		width: 100%;
+	}
+
+	.section-step header div {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	.section-step .section-content {
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		color: #ffffff;
+		overflow: hidden;
+		margin: 0;
+	}
+
+	.section-step .section-content p {
+		background-color: rgb(30, 33, 38);
+		background-color: rgba(30, 33, 38, 0.8);
+		padding: 65px;
+		margin: 100px auto;
+		width: 555px;
+	}
+
+/* SECTION IMPORT DATA */
+	#section-import-data .section-content {
+		background-image: url(../images/import-data.jpg);
+	}
+
+/* SECTION ANALYSE REPORT */
+	#section-analyse-report .section-content {
+		background-image: url(../images/analyse-report.jpg);
+	}
+
+/* SECTION IMPROVE BACKLOG */
+	#section-improve-backlog .section-content {
+		background-image: url(../images/improve-backlog.jpg);
+	}
+
+/* SECTION IMPROVE TEAM CAPACITY */
+	#section-improve-team-capacity .section-content {
+		background-image: url(../images/improve-team-capacity.jpg);
+	}
+
+/* SECTION IMPROVE QUALITY */
+	#section-improve-quality .section-content {
+		background-image: url(../images/improve-quality.jpg);
+	}
+
+/* SECTION IMPROVE BUDGET */
+	#section-improve-budget .section-content {
+		background-image: url(../images/improve-budget.jpg);
+	}
+
+/* SECTION GOT IT */
+	#section-got-it h2 {
+		font-family: 'source_sans_proextralight', Helvetica, Arial, sans-serif;
+	}
+
+	#section-got-it div {
+		display: table;
+		width: 100%;
+	}
+
+	#section-got-it a {
+		background-color: #19635d;
+		border: 2px solid #66ccc3;
+		color: #ffffff;
+		text-transform: uppercase;
+		font-size: 17px;
+		margin: 0 auto;
+		width: 250px;
+		height: 39px;
+		line-height: 35px;
+		display: block;
+	}
+
+	#section-got-it p {
+		margin: 0 auto;
+	}
+
+	#section-got-it .section-content p {
+		 margin: 0 auto;
 	}
 
 /* FONTS */
@@ -113,4 +231,31 @@ h2 {
 	         url('../fonts/sourcesanspro-regular-webfont.svg#source_sans_proregular') format('svg');
 	    font-weight: normal;
 	    font-style: normal;
+
 	}
+
+	@font-face {
+	    font-family: 'source_sans_probold';
+	    src: url('../fonts/sourcesanspro-bold-webfont.eot');
+	    src: url('../fonts/sourcesanspro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('../fonts/sourcesanspro-bold-webfont.woff2') format('woff2'),
+	         url('../fonts/sourcesanspro-bold-webfont.woff') format('woff'),
+	         url('../fonts/sourcesanspro-bold-webfont.ttf') format('truetype'),
+	         url('../fonts/sourcesanspro-bold-webfont.svg#source_sans_probold') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+
+	}
+
+	@font-face {
+	    font-family: 'source_sans_proextralight';
+	    src: url('../fonts/sourcesanspro-extralight-webfont.eot');
+	    src: url('../fonts/sourcesanspro-extralight-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('../fonts/sourcesanspro-extralight-webfont.woff2') format('woff2'),
+	         url('../fonts/sourcesanspro-extralight-webfont.woff') format('woff'),
+	         url('../fonts/sourcesanspro-extralight-webfont.ttf') format('truetype'),
+	         url('../fonts/sourcesanspro-extralight-webfont.svg#source_sans_proextralight') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+
+}
