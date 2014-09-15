@@ -112,12 +112,14 @@ header {
 	.to-next {
 		position: absolute;
 		bottom: -30px;
-		margin: auto;
-		height: 46px;
 		left: 0;
 		right: 0;
 	}
 
+	.to-next img {
+		margin: auto;
+		height: 46px;
+	}
 
 /* SECTION WHAT */
 	#section-what {
@@ -182,7 +184,6 @@ header {
 		padding: 0 0 0 20px;
 	}
 
-
 /* SECTION HOW */
 	#section-how h2 {
 		padding: 20px 0 25px;
@@ -194,7 +195,6 @@ header {
 		background-color: #2c3138;
 		margin: 0;
 	}
-
 
 /* SECTION IMPORT DATA */
 	#section-import-data .section-content {
@@ -257,7 +257,6 @@ header {
 		 margin: 0 auto;
 	}
 
-
 /* FOOTER */
 
 	#section-footer {
@@ -294,7 +293,6 @@ header {
 		color: #5fbbb4;`
 		text-decoration: none;
 	}
-
 
 /* FONTS */
 	@font-face {
@@ -333,5 +331,4 @@ header {
 	         url('../fonts/sourcesanspro-extralight-webfont.svg#source_sans_proextralight') format('svg');
 	    font-weight: normal;
 	    font-style: normal;
-
-}
+	}

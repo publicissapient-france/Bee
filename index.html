@@ -25,7 +25,7 @@
 				</h1>
 			</header>
 
-			<a href="#section-what"><img id="fleche-bas" class="to-next" src="./images/fleche-bas.png" alt="Flèche bas" /></a>
+			<a href="#section-what" class="to-next" id="fleche-bas"><img src="./images/fleche-bas.png" alt="Flèche bas" /></a>
 		</section>
 
 		<section id="section-what">
@@ -63,7 +63,7 @@
 				<div>
 					<img src="./images/nuage-fleche.png" alt="Import data"/>
 					<h3><span class="subtitle-highlight">Step 1 -</span> <span class="subtitle-classic">Import data</span></h3>
-					<a href="#section-analyse-report"><img class="to-next" src="./images/fleche-bas.png" alt="Flèche bas" /></a>
+					<a href="#section-analyse-report" class="to-next"><img src="./images/fleche-bas.png" alt="Flèche bas" /></a>
 				</div>
 			</header>
 			<div class="section-content">
@@ -76,7 +76,7 @@
 				<div>
 					<img src="./images/communaute.png" alt="Analyse report"/>
 					<h3><span class="subtitle-highlight">Step 2 -</span> <span class="subtitle-classic">Analyse report</span></h3>
-					<a href="#section-improve-backlog"><img class="to-next" src="./images/fleche-bas.png" alt="Flèche bas" /></a>
+					<a href="#section-improve-backlog" class="to-next"><img src="./images/fleche-bas.png" alt="Flèche bas" /></a>
 				</div>
 			</header>
 			<div class="section-content">
@@ -89,7 +89,7 @@
 				<div>
 					<img src="./images/fleches-directions.png" alt="Improve backlog"/>
 					<h3><span class="subtitle-highlight">Step 3 -</span> <span class="subtitle-classic">Improve backlog</span></h3>
-					<a href="#section-improve-team-capacity"><img class="to-next" src="./images/fleche-bas.png" alt="Flèche bas" /></a>
+					<a href="#section-improve-team-capacity" class="to-next"><img src="./images/fleche-bas.png" alt="Flèche bas" /></a>
 				</div>
 			</header>
 			<div class="section-content">
@@ -102,7 +102,7 @@
 				<div>
 					<img src="./images/graphique.png" alt="Improve team capacity"/>
 					<h3><span class="subtitle-highlight">Step 4 -</span> <span class="subtitle-classic">Improve team capacity</span></h3>
-					<a href="#section-improve-quality"><img class="to-next" src="./images/fleche-bas.png" alt="Flèche bas" /></a>
+					<a href="#section-improve-quality" class="to-next"><img src="./images/fleche-bas.png" alt="Flèche bas" /></a>
 				</div>
 			</header>
 			<div class="section-content">
@@ -115,7 +115,7 @@
 				<div>
 					<img src="./images/diamant.png" alt="Improve quality"/>
 					<h3><span class="subtitle-highlight">Step 5 -</span> <span class="subtitle-classic">Improve quality</span></h3>
-					<a href="#section-improve-budget"><img class="to-next" src="./images/fleche-bas.png" alt="Flèche bas" /></a>
+					<a href="#section-improve-budget" class="to-next"><img src="./images/fleche-bas.png" alt="Flèche bas" /></a>
 				</div>
 			</header>
 			<div class="section-content">
@@ -128,7 +128,7 @@
 				<div>
 					<img src="./images/budget.png" alt="Improve budget"/>
 					<h3><span class="subtitle-highlight">Step 6 -</span> <span class="subtitle-classic">Improve budget</span></h3>
-					<a href="#section-got-it"><img class="to-next" src="./images/fleche-bas.png" alt="Flèche bas" /></a>
+					<a href="#section-got-it" class="to-next"><img src="./images/fleche-bas.png" alt="Flèche bas" /></a>
 				</div>
 			</header>
 			<div class="section-content">
@@ -157,7 +157,7 @@
 		<script src="js/bootstrap.min.js"></script>
 		<script type="text/javascript">
 			(function ($) {
-				$(".to-next").parent().on('click', function (event) {
+				$(".to-next").on('click', function (event) {
 			        event.preventDefault();
 
 			        $('html,body').animate({scrollTop: $(this.hash).offset().top}, 600);
