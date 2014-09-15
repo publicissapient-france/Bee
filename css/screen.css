@@ -9,7 +9,7 @@ section {
 	position: relative;
 }
 
-p, ul {
+p {
 	font-size: 20px;
 	text-align: left;
 }
@@ -181,10 +181,6 @@ header {
 
 	#section-what p {
 		margin: 0 0 30px;
-	}
-
-	#section-what ul {
-		padding: 0 0 0 20px;
 	}
 
 /* SECTION HOW */
