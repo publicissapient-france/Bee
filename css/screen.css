@@ -161,7 +161,8 @@ header {
 	#section-what {
 		background-image: url(../images/mac-book.jpg);
 		background-repeat: no-repeat;
-		background-position: center top;
+		background-position: 50% 50%;
+  		background-attachment: fixed;
 		background-size: cover;
 		overflow: hidden;
 		border-bottom: 5px solid #19645e;
